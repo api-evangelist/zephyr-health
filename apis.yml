@@ -1,4 +1,16 @@
 aid: zephyr-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zephyr-health.png
 name: Zephyr Health *
 description: 'Zephyr Health * is a company surfaced as a portfolio company of gv and added to the API
   Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
@@ -10,9 +22,14 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Domain zephyrhealth.com is parked for sale on GoDaddy (307 -> forsale.godaddy.com);
+  developer/api/docs subdomains all resolve to the same parking IPs (wildcard DNS). Zephyr Health,
+  a life-sciences data analytics firm, was acquired by ZS Associates in 2019 and no longer operates a
+  public web or API surface. No API artifacts are recoverable.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
@@ -22,3 +39,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
