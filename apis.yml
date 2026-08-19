@@ -27,7 +27,7 @@ x-status-note: 'Domain zephyrhealth.com is parked for sale on GoDaddy (307 -> fo
   developer/api/docs subdomains all resolve to the same parking IPs (wildcard DNS). Zephyr Health,
   a life-sciences data analytics firm, was acquired by ZS Associates in 2019 and no longer operates a
   public web or API surface. No API artifacts are recoverable.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
